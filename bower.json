@@ -17,6 +17,6 @@
     "tests"
   ],
   "dependencies": {
-    "o-ads": "http://git.svc.ft.com/scm/ads/o-ads.git"
+    "o-ads": "http://git.svc.ft.com/scm/ads/o-ads.git#sticky-ads"
   }
 }

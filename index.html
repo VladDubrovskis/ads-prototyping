@@ -11,7 +11,7 @@
   </head>
   <body>
     <header>
-      <section class="o-ads" data-o-ads-name="leaderboard"></section>
+      <section class="o-ads" data-o-ads-name="sticky1"></section>
     </header>
     <section id="main">
       <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
@@ -29,6 +29,8 @@
       <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
       <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
       <p>Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+      <section class="o-ads" data-o-ads-name="sticky2"></section>
+      <br>
       <img src="http://im.ft-static.com/content/images/a60ae24b-b87f-439c-bf1b-6e54946b4cf2.img">
       <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
       <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
@@ -39,7 +41,28 @@
       <p>Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
     </section>
     <script data-o-ads-config="" type="application/json">
-      {"gpt":{"network":5887,"site":"test.5887.origami"},"slots":{"leaderboard":{"formats":["SuperLeaderboard"]}}}
+      {
+        "gpt":
+        {
+          "network":5887,
+          "site":"test.5887.origami"
+        },
+        "slots":
+        {
+          "sticky1":{
+            "formats":["SuperLeaderboard"],
+            "sticky": true,
+            "stickyPosition": "top",
+            "stickyTimeout": "2000"
+          },
+          "sticky2":{
+            "formats":["Leaderboard"],
+            "sticky": true,
+            "stickyPosition": "bottom",
+            "stickyTimeout": "2000"
+          }
+        }
+      }
     </script>
     <script>
       (function () {
