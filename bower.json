@@ -17,6 +17,6 @@
     "tests"
   ],
   "dependencies": {
-    "o-ads": "http://git.svc.ft.com/scm/ads/o-ads.git"
+    "o-ads": "https://github.com/Financial-Times/o-ads.git"
   }
 }
