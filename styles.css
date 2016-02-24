@@ -1,0 +1,53 @@
+html{
+	background: #fff1e0;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	padding: 1em;
+	max-width: 65em;
+	margin: 0 auto;
+	text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+	flex-wrap: wrap;
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+	margin: 1em 0;
+}
+
+p {
+	margin: 1em 0;
+	text-align: left;
+}
+
+section[data-o-ads-name] {
+	margin: 0;
+}
+
+.o-ads__inner a {
+	border: none;
+}
+
+aside {
+	float: right;
+	margin: 1em;
+}
+
+.o-ads__inner {
+	display: block !important;
+}
+
+.google_image_div {
+	position: static !important;
+}
+
+img {
+	max-width: 100%;
+}

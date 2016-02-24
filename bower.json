@@ -1,0 +1,22 @@
+{
+  "name": "ads-prototyping",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Vlad Dubrovskis <vlad.dubrovskis@ft.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "o-ads": "http://git.svc.ft.com/scm/ads/o-ads.git"
+  }
+}
